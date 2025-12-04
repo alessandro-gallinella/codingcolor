@@ -1,4 +1,6 @@
 console.log("inizio esecuzione")
+let d = new date();
+console.log(d)
 function elabora() {
 let numero = document.getElementById("inNumber").value;
 alert(numero);
