@@ -1,5 +1,16 @@
 console.log("inizio esecuzione")
-function () {
+function elabora() {
 let numero = document.getElementById("inNumber").value;
 alert(numero);
+  
+if (numero >=0 && numero <= 255){
+  document.getElementById("outText").innerHTML = "hai inserito il" + "numero" + numero;
+
 }
+else {
+  document.getElementById("error").innerHTML = "il numero non è corretto";
+}
+
+function reset(){
+  document.getElementById("inNumber").value = "";
+}  
