@@ -4,7 +4,7 @@ let numero = document.getElementById("inNumber").value;
 alert(numero);
   
 if (numero >=0 && numero <= 255){
-  document.getElementById("outText").innerHTML = "hai inserito il" + "numero" + numero;
+  document.getElementById("outText").innerHTML = "hai inserito il numero corretto";
 
 }
 else {
