@@ -7,12 +7,16 @@ alert(numero);
   
 if (numero >=0 && numero <= 255){
   document.getElementById("outText").innerHTML = "hai inserito il numero corretto";
+color.push(numero);
+  
+document.getElementById("error").innerHTML = "hai inserito il"+numero;
 
 }
 else {
-  document.getElementById("error").innerHTML = "il numero non è corretto";
+  document.get ElementById("error").innerHTML = "il numero non è corretto";
 }
 
 function reset(){
-  document.getElementById("inNumber").value = "";
+   document.getElementById("inNumber").value = "";
 }  
+
